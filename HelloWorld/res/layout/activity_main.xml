@@ -9,22 +9,22 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1"
         android:text="@string/hello_world" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
         android:layout_below="@id/textView1"
         android:text="Mi primer TextView" />
 
     <Button2
+        android:id="@+id/button1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
         android:layout_below="@id/textView2"
         android::text="Mi primer boton" />
 
