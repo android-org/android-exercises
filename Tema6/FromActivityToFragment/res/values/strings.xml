@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityToFragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_nav">Navegar</string>
+    <string name="hint_url">Introduzca Url...</string>
+    <string name="title_activity_future_fragment">FutureFragment</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
