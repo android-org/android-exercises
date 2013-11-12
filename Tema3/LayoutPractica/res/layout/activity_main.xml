@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue" >
+
+    <TextView
+        android:id="@+id/TxtDato0"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="#90F030"
+        android:padding="10dp"
+        android:text="@string/textview0" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtDato0"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/TableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#E28BC5"
+            android:stretchColumns="0,1" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TxtDato1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textview1"
+                    android:textColor="#FF0000" />
+
+                <TextView
+                    android:id="@+id/TxtDato2"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textview2"
+                    android:textColor="#90F030" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TxtDato3"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textview3"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:id="@+id/TxtDato4"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textview4" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/TxtDato5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/textview5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtDato6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/LinearLayout"
+        android:background="#FFF5A2"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="@string/textview6"
+        android:textColor="@color/blue" />
+
+</RelativeLayout>
