@@ -26,12 +26,11 @@ public class MainActivity extends Activity {
 				"Mi Item4", "Mi Item5", "Mi Item6", "Mi Item7", "Mi Item8" };
 
 		// Utilizando un Layout item de sistema simple
-		ArrayAdapter<String> adapt = new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_1, items);
+		//ArrayAdapter<String> adapt = new ArrayAdapter<String>(this,
+		//		android.R.layout.simple_list_item_1, items);
 
 		// Utilizando un Layout item definido
-		// ArrayAdapter<String> adapt = new ArrayAdapter<String>(this,
-		// R.layout.menu_item, items);
+		ArrayAdapter<String> adapt = new ArrayAdapter<String>(this, R.layout.menu_item, items);
 
 		// Utilizado un Resource Array para los datos, en lugar de definirlos en
 		// codigo
