@@ -1,6 +1,6 @@
 package com.example.layouts;
 
-import net.sgoliver.android.layouts.R;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
