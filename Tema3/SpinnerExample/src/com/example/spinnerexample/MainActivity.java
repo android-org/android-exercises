@@ -39,6 +39,9 @@ public class MainActivity extends Activity {
 				toast.show();
 			}
 
+			
+			// Cuando no hay opcion seleccionada, p.e por falta de datos en el
+			// adapter
 			public void onNothingSelected(AdapterView<?> parent) {
 				Toast toast = Toast.makeText(getApplicationContext(),
 						"Nothing Selected", duration);
