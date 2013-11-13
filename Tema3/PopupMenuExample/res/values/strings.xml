@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MenuExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">HELLO WORLD!</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
+    <string name="copy_content">Content</string>
+    <string name="copy_format">Format</string>
+    <string name="menu_header">Titulo Menu</string>
+    <string name="mi_boton">Mi Boton</string>
+</resources>
