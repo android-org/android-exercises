@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/LblEtiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/TxtTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LblEtiqueta"
+        android:layout_margin="10dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/ButtonANR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/TxtTexto"
+        android:layout_margin="10dp"
+        android:text="@string/anr" />
+
+    <Button
+        android:id="@+id/ButtonThreadNotUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ButtonANR"
+        android:layout_margin="10dp"
+        android:text="@string/notui" />
+    
+        <Button
+        android:id="@+id/ButtonThreadHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ButtonThreadNotUI"
+        android:layout_margin="10dp"
+        android:text="@string/threadhandler" />
+
+</RelativeLayout>

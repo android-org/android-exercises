@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThreadExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="anr">Producir ANR</string>
+    <string name="notui">Thread No UI</string>
+    <string name="threadhandler">Thread Handler</string>
+
+</resources>
