@@ -1,0 +1,7 @@
+Contenido de Ficherito Raw
+que ha de estar en /res/raw
+y solo puedo leer en ejecucion
+
+
+
+
